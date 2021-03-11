@@ -171,3 +171,28 @@ footer .credits h6 {
 footer .credits{
     padding-bottom: 0px;
 }
+
+@media only screen and (max-width: 470px){
+  
+    footer .credits h6 {
+        color: rgba(197, 197, 197, 0.801);
+        font-weight: 100;
+        /* border: 1px solid red; */
+        text-align: center;
+        align-items: center;
+        line-height: 5vh;
+        
+        transform: translateY(180px);
+        font-size: 12px;
+        font-family: sans-serif;
+        background-color: rgb(66, 66, 66);
+        height: 40px;
+        
+        
+    }
+    
+    footer .credits{
+        padding-bottom: 0px;
+    }  
+
+}
