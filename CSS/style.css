@@ -28,8 +28,9 @@ body{
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.6));
     
 }
-.wrapper{
-    min-height: 100%;
+.page-wrapper
+{
+   min-height: 100%;
 }
 .position{
     transform: translateY(70px);
@@ -160,9 +161,9 @@ footer .credits h6 {
     text-align: center;
     align-items: center;
     line-height: 5vh;
-    transform: translateY(125px);
+    /* transform: translateY(125px); */
     font-size: 15px;
-    font-family: sans-serif;
+    font-family:'Noto Sans JP', sans-serif;
     background-color: rgb(66, 66, 66);
     height: 40px;
     
@@ -177,23 +178,22 @@ footer .credits{
   
     footer .credits h6 {
         color: rgba(197, 197, 197, 0.801);
-        font-weight: 100;
+        font-weight: 200;
         /* border: 1px solid red; */
         text-align: center;
         align-items: center;
         line-height: 5vh;
-        
-        transform: translateY(180px);
-        font-size: 12px;
-        font-family: sans-serif;
+        /* transform: translateY(180px); */
+        font-size: 13px;
+        font-family: 'Noto Sans JP',sans-serif;
         background-color: rgb(66, 66, 66);
         height: 40px;
         
         
     }
     
-    footer .credits{
+    /* footer .credits{
         padding-bottom: 0px;
-    }  
+    }   */
 
 }

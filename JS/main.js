@@ -107,8 +107,5 @@ function dateBuilder(d){
     return `${day} ${date} ${month} ${year}`;
 }
 
-function changeIcon(weather)
-{
-    
-}
+
 
