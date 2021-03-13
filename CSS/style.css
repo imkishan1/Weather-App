@@ -197,3 +197,9 @@ footer .credits{
     }   */
 
 }
+#open-weather-link{
+    text-decoration: none;
+    font-style: normal;
+    color: rgba(197, 197, 197, 0.801);
+    cursor: pointer;
+}
