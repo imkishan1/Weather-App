@@ -59,12 +59,12 @@ function displayResults(weather){
      
     }
     else if ((weather.weather[0].main)=="Clouds"){
+        document.getElementById("icon").className = "fas fa-cloud windy";
         document.getElementById("app-wrap").classList.remove("sunny");
         document.getElementById("app-wrap").classList.remove("clear");
         document.getElementById("app-wrap").classList.remove("rain");
         document.getElementById("app-wrap").classList.remove("snow");
         document.getElementById("app-wrap").classList.remove("mist");
-        document.getElementById("icon").className = "fas fa-cloud windy";
         document.getElementById("app-wrap").classList.add("clouds");
         // document.querySelector(".app-wrap").classList.add("clouds"); 
       
